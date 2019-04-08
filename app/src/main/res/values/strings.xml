@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Face Detection</string>
+
+    <!-- Main Activity -->
+    <string-array name="tab_titles">
+        <item>All</item>
+        <item>Faces</item>
+        <item>Non Faces</item>
+    </string-array>
+    <string name="face_detector_setup_failed_message">Could not set up the face detector!</string>
+
+    <!-- Messages -->
+    <string name="dialog_storage_permission_title">In order to use the app, you need to grant access to storage permission</string>
+    <string name="dialog_storage_permission_message">Go to Settings -> Apps and Notifications -> Face Detection -> App Permissions and grant access to Storage.</string>
+    <string name="dialog_storage_permission_confirm">Confirm</string>
+    <string name="photos_categorizing_completed">Photos categorizing completed! There are %d photos total</string>
+
+    <!-- Photo Fragment Components -->
+    <string name="text_view_empty_photo_list">This photo list is empty</string>
+    <string name="button_detect_faces">Detect Faces</string>
+
+</resources>
